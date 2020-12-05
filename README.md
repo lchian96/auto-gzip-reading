@@ -3,9 +3,9 @@ A mini project to download a long list of gzip files through URL and obtain data
 
 # Task: Download and Calculate no. of articles(indexes/rows) in each gzip files provided in the MASTERFILELIST.TXT
 
-# I would personally download all those files together into my storage, then perform the data cleaning or whatever
-# Just so that I missed out any steps or data I needed afterward because downloading these files take some time.
-# This is a solution for: limited hardware storage, not familiar with cloud computing services like AWS.        
+I would personally download all those files together into my storage, then perform the data cleaning or whatever
+Just so that I missed out any steps or data I needed afterward because downloading these files take some time.
+This is a solution for: limited hardware storage, not familiar with cloud computing services like AWS.        
           
 # Steps in this py:
 # (1) Read the MasterList text file to get the URL
