@@ -5,7 +5,8 @@ A mini project to download a long list of gzip files through URL and obtain data
 
 I would personally download all those files together into my storage, then perform the data cleaning or whatever
 Just so that I missed out any steps or data I needed afterward because downloading these files take some time.
-This is a solution for: limited hardware storage, not familiar with cloud computing services like AWS.        
+This is a solution for: limited hardware storage, not familiar with cloud computing services like AWS.
+I put all the files in one py but its best to arrange functions in another py files and import them
           
 Steps in this py:
 (1) Read the MasterList text file to get the URL
@@ -18,3 +19,5 @@ Steps in this py:
 (6) Delete the files
    note that py will remove the file from your PC permanently, not recycle bin
 (7) Continue looping
+
+# I am new to Python so please give suggestion and advice to improve my coding.
