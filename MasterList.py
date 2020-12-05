@@ -44,6 +44,8 @@ def what2do_gzip(gzipFile_url, read_condition):
         gzip_df = pd.read_csv(gzipFile_path, compression='gzip', header=0, \
                               sep=',', quotechar='"', error_bad_lines=False)
         return gzip_df
+    else:
+        os.remove(gzipFile_path)
 
 
 with open(directory) as f:
